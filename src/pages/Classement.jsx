@@ -1,9 +1,12 @@
+import styles from './Classement.module.css';
 
 const Classement = () => {
   return (
-    <div>
-      <h1>Classement</h1>
-    </div>
+    <section>
+      <div className={styles.leaderboard}>
+
+      </div>
+    </section>
   );
 };
 
