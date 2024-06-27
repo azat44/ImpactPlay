@@ -1,0 +1,22 @@
+.rankContainer {
+    margin: auto;
+    width: 80%;
+}
+.rankContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.rankContent img {
+    max-width: 200px;
+}
+.rankContent p {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    font-family: var(--poppins-font);
+    font-weight: var(--bold-font);
+    font-style: var(--normal-font);
+}

@@ -1,0 +1,24 @@
+.conseilContainer {
+    margin: auto;
+    padding: 5px;
+    width: 80%;
+    background-color: #141D22;
+    border-radius: 8px;
+    border: 1px ;
+    color: var(--purewhite-color);
+    font-family: var(--poppins-font);
+}
+.conseilContent {
+    padding: 12px;
+}
+.conseilTitle {
+    font-weight: var(--bold-font);
+    font-style: var(--italic-font);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logoConseil {
+    max-height: 25px;
+}

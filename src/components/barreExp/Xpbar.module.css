@@ -1,0 +1,35 @@
+.xpbarContainer {
+    margin: auto;
+    width: 80%;
+    height: 6vh;
+    border-radius: 8px;
+    background-color: var(--black-color);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.xpbarContent {
+    width: 100%;
+    height: 1vh;
+    background-color: var(--pureblack-color);
+    border-radius: 4px;
+}
+.xpbar {
+    height: 100%;
+    border-radius: 4px;
+    /* Modifier la valeur avec l'amout */
+    width: 50%;
+    background-color: var(--green-color);
+}
+.xpbarNumber {
+    font-family: var(--poppins-font);
+    font-weight: var(--medium-font);
+    font-style: var(--normal-font);
+    color: var(--purewhite-color);
+}
+.apagnan {
+    width: 90%;
+    margin: auto;
+}

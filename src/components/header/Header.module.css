@@ -2,5 +2,27 @@ header {
     top: 0;
     height: 10vh;
     width: 100%;
-    background-color: black;
+}
+.headerContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.avatarProfile {
+    max-height: 7vh;
+    border-radius: 100%;
+    position: absolute;
+    left: 10px;
+}
+.headerContainer p {
+    font-size: 18px;
+    color: #fff;
+    font-family: var(--poppins-font);
+    font-style: var(--normal-font);
+    font-weight: var(--bold-font);
+}
+.headerContainer p span {
+    font-style: var(--italic-font);
 }

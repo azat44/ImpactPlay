@@ -11,9 +11,7 @@
   --medium-font: 500;
   --bold-font: 600;
   --normal-font: normal;
-  --italic-font: italic;
-
-  
+  --italic-font: italic;  
 }
 * {
   padding: 0;
@@ -24,4 +22,5 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #243741;
 }
