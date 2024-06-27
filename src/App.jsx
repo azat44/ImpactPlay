@@ -6,7 +6,6 @@ import Classement from "./pages/Classement";
 import Home from "./pages/Home";
 import Recompenses from "./pages/Recompenses";
 import Register from "./pages/Register";
-import Ranks from './pages/Ranks'
 
 const App = () => {
   return (
@@ -16,8 +15,6 @@ const App = () => {
         <Route path="/recompenses" element={<Recompenses />} />
         <Route path="/classement" element={<Classement />} />
         <Route path="/" element={<Home />} />
-        <Route path="/Ranks" element={<Ranks />} />
-
         <Route path="/register" element={<Register />} />
       </Routes>
       <Footer />  
