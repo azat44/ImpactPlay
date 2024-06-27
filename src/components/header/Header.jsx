@@ -1,12 +1,12 @@
-import styles from './Footer.module.css';
+import styles from './Header.module.css';
 
 const Header = () => {
     return (
-        <Header className={styles.tt}>
-            <div>
-                
+        <header>
+            <div className={styles.divttt}>
+                <h1>fff</h1>
             </div>
-        </Header>
+        </header>
     )
 }
 
