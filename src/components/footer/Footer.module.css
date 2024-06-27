@@ -1,7 +1,28 @@
-footer {
+.footer-menu {
     position: fixed;
     bottom: 0;
-    height: 10vh;
     width: 100%;
-    background-color: red;
-}
+    background-color: #2e8b57; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+
+  }
+  
+  .footer-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .footer-menu a:hover {
+    background-color: green;
+    opacity:0.5; 
+    border-radius: 5px;
+  }
+  
+  .footer-menu a:active {
+    transform: scale(0.95);
+  }
+  
