@@ -1,9 +1,7 @@
-import React from 'react';
-
 const Recompenses = () => {
   return (
     <div>
-      <h1>Classement </h1>
+      <h1>Récompenses </h1>
     </div>
   );
 };

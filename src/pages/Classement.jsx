@@ -2,7 +2,7 @@
 const Classement = () => {
   return (
     <div>
-      <h1>AAAAAAAAAAAAAAAAA </h1>
+      <h1>Classement</h1>
     </div>
   );
 };
