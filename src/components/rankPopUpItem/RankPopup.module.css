@@ -1,0 +1,14 @@
+.rankInfo p:first-child {
+    font-weight: var(--bold-font);
+}
+.rankInfo p:last-child {
+    font-size: 14px;
+}
+.rankItemPopup img {
+    max-height: 75px;
+}
+.rankItemPopup {
+    display: flex;
+    align-items: end;
+    gap: 15px;
+}
