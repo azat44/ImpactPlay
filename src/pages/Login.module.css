@@ -1,0 +1,45 @@
+.LoginTitle {
+    font-family: var(--poppins-font);
+    text-align: center;
+    color: #fff;
+    font-weight: var(--bold-font);
+}
+.formLogin {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputForm {
+    border: 1px solid #fff;
+    background-color: var(--black-color);
+    text-indent: 10px;
+    font-family: var(--poppins-font);
+    padding: 12px 10px;
+    border-radius: 12px;
+    color: #fff;
+}
+.inputForm:focus {
+    border: none;
+}
+.buttonForm {
+    margin-top: 10px;
+    font-family: var(--poppins-font);
+    color: #fff;
+    font-size: 14px;
+    font-weight: var(--bold-font);
+    border-radius: 12px;
+    padding: 12px 10px;
+    background-color: var(--green-color);
+    outline: none;
+    border: none;
+}
+.registerProut {
+    font-family: var(--poppins-font);
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}

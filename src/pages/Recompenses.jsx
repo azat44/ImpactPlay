@@ -1,4 +1,3 @@
-import React from 'react';
 import './Recompenses..css';
 
 const rewards = [

@@ -2,6 +2,13 @@ import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 const Footer = () => {
+  const token = localStorage.getItem('token')
+  if (!token){
+      return(<footer>
+          {/* <p>rrr</p> */}
+      </footer>)
+  }
+
   return (
     <nav className={styles.footermenu}>
       <Link to="/">

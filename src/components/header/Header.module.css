@@ -26,3 +26,12 @@ header {
 .headerContainer p span {
     font-style: var(--italic-font);
 }
+.bahOui {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoHeader {
+    height: 50px;
+}
