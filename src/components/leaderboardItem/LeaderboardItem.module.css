@@ -1,0 +1,10 @@
+.LeaderboardContainer {
+    height: 5vh;
+    width: 100%;
+    background-color: red;
+}
+.LeaderboardTop {
+    width: 10px;
+    height: 100%;
+    background-color: aqua;
+}
