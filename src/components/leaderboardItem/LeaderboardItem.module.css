@@ -1,10 +1,35 @@
 .LeaderboardContainer {
     height: 5vh;
     width: 100%;
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black-color);
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
 }
-.LeaderboardTop {
-    width: 10px;
-    height: 100%;
-    background-color: aqua;
+.LeaderboardLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.LeaderboardContainer p {
+    font-family: var(--poppins-font);
+    font-weight: var(--bold-font);
+    font-style: var(--italic-font);
+}
+.LeaderboardRight {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.LeaderboardRight p:first-child {
+    text-align: end;
+}
+.LeaderboardRight p {
+    font-style: var(--normal-font);
+}
+.LeaderboardXp {
+    font-size: 10px;
 }

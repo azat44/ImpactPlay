@@ -1,9 +1,15 @@
 import styles from './LeaderboardItem.module.css';
-const LeaderboardItem = () => {
+const LeaderboardItem = ({name, rankPosition, Xp}) => {
     return (
-        <div className={styles.LeaderboardContainer}>
-            <div class="LeaderboardTop">
-                s
+        <div id="tt" className={styles.LeaderboardContainer}>
+            <div className={styles.LeaderboardLeft}>
+                <div id="LeaderboardTop">
+                    <p>{rankPosition}</p>
+                </div>
+                <p>{name}</p>
+            </div>
+            <div className={styles.LeaderboardRight}>
+                <p className={styles.LeaderboardXp}>{Xp} XP</p>
             </div>
         </div>
     )

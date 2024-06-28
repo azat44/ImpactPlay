@@ -1,14 +1,18 @@
 .footermenu {
-    position: fixed;
+    position: sticky;
+    height: 7vh;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 10px 0;
-
+    background-color: #141D22;
   }
   
   .footermenu a {
+    display: flex;
+    height: fit-content;
     color: white;
     text-decoration: none;
     padding: 10px;

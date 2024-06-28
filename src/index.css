@@ -24,3 +24,33 @@ body, html {
   padding: 0;
   background-color: #243741;
 }
+
+#LeaderboardTop {
+  width: 10px;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: var(--green-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: #000;
+  font-style: var(--normal-font);
+}
+
+#tt:nth-child(1) #LeaderboardTop {
+  background-color: yellow;
+}
+
+#tt:nth-child(2) #LeaderboardTop {
+  background-color: gray;
+}
+
+#tt:nth-child(3) #LeaderboardTop {
+  background-color: brown;
+}
+
+section {
+  min-height: 84vh;
+}

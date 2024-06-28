@@ -5,8 +5,8 @@
     margin-top: 10px;
     width: 80%;
     background-color: #141D22;
-    height: 200px;
-}
-.leaderboard:first-child .LeaderboardTop {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
 }
