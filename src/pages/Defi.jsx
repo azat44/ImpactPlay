@@ -5,7 +5,7 @@ const Defi = () => {
     const [activeTab, setActiveTab] = useState('Quêtes en cours');
 
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
           <div className={styles.header}>
             <div className={styles.headerText}>
               <div className={styles.headerTime}>
@@ -62,7 +62,7 @@ const Defi = () => {
               <div>104 XP</div>
             </div>
           </div>
-        </div>
+        </section>
       );
 };
 
